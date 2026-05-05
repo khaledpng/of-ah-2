@@ -1,10 +1,6 @@
 {
-  "build": {
-    "builder": "DOCKERFILE"
-  },
   "deploy": {
     "numReplicas": 1,
-    "restartPolicyMaxRetries": 5,
-    "startCommand": "node server.js"
+    "restartPolicyMaxRetries": 5
   }
 }
