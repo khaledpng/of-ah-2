@@ -1,0 +1,9 @@
+:8080 {
+	encode gzip
+
+	root * .
+
+	file_server
+
+	try_files {path} /index.html
+}
